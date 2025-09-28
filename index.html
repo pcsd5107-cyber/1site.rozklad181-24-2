@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Розклад занять — 181-24-1</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #0a0a0f, #1a0025 70%);
+            color: #e0e0ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: rgba(30, 0, 50, 0.8);
+            color: #ff00ff;
+            padding: 25px;
+            text-align: center;
+            font-size: 1.3em;
+            text-shadow: 0 0 15px #ff00ff, 0 0 30px #00ffff;
+            border-bottom: 2px solid #00ffff;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            background: rgba(15, 0, 30, 0.7);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 25px #ff00ff, 0 0 40px #00ffff inset;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h2 {
+            color: #00ffff;
+            text-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.8em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th, td {
+            border: 1px solid rgba(255, 0, 255, 0.4);
+            padding: 12px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        th {
+            background: rgba(255, 0, 255, 0.2);
+            color: #00ffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1em;
+        }
+
+        td {
+            background: rgba(0, 0, 20, 0.6);
+        }
+
+        tr:hover td {
+            background: rgba(255, 0, 255, 0.2);
+            color: #fff;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(30, 0, 50, 0.8);
+            color: #ff00ff;
+            border-top: 2px solid #00ffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9em;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        /* Анімація появи */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Неонові кольори для різних предметів */
+        .math { color: #00ffea; text-shadow: 0 0 8px #00fff7; }
+        .history { color: #ff66ff; text-shadow: 0 0 8px #ff33ff; }
+        .literature { color: #ffb347; text-shadow: 0 0 8px #ffaa33; }
+        .physics { color: #8aff80; text-shadow: 0 0 8px #33ff33; }
+        .art { color: #ff3399; text-shadow: 0 0 8px #ff0080; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Розклад занять — 181-24-1</h1>
+        <h2>Оновлено: 28.09.2025</h2>
+
+    </header>
+    <main>
+        <h2>Тиждень</h2>
+        <table>
+            <tr>
+                <th>День</th>
+                <th>Пара</th>
+                <th>Час</th>
+                <th>Предмет</th>
+                <th>Аудиторія</th>
+            </tr>
+
+            <!-- Понеділок -->
+            <tr>
+                <td rowspan="4">Понеділок</td>
+                <td>1</td>
+                <td>08:00 - 09:20</td>
+                <td class="history">Історія: Україна і світ</td>
+                <td>403</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09:30 - 10:50</td>
+                <td class="math">Математика</td>
+                <td>411</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:10 - 12:30</td>
+                <td class="physics">Хімія (профіль)</td>
+                <td>313</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12:40 - 14:00</td>
+                <td class="literature">Українська література</td>
+                <td>304</td>
+            </tr>
+
+            <!-- Вівторок -->
+            <tr>
+                <td rowspan="4">Вівторок</td>
+                <td>1</td>
+                <td>08:00 - 09:20</td>
+                <td>Географія</td>
+                <td>403</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09:30 - 10:50</td>
+                <td class="physics">Фізика і астрономія</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:10 - 12:30</td>
+                <td>Санітарія і гігієна</td>
+                <td>311</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12:40 - 14:00</td>
+                <td>Безпека життєдіяльності</td>
+                <td>311</td>
+            </tr>
+
+            <!-- Середа -->
+            <tr>
+                <td rowspan="4">Середа</td>
+                <td>1</td>
+                <td>08:00 - 09:20</td>
+                <td>Фінансова грамотність</td>
+                <td>402</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09:30 - 10:50</td>
+                <td>Фізична культура</td>
+                <td>С/З</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:10 - 12:30</td>
+                <td>Захист України</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12:40 - 14:00</td>
+                <td>Біологія і екологія</td>
+                <td>301</td>
+            </tr>
+
+            <!-- Четвер -->
+            <tr>
+                <td rowspan="4">Четвер</td>
+                <td>1</td>
+                <td>08:00 - 09:20</td>
+                <td class="history">Історія: Україна і світ</td>
+                <td>403</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09:30 - 10:50</td>
+                <td>Українська мова / Іноземна мова </td>
+                <td>304 / 206</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:10 - 12:30</td>
+                <td>Технологія</td>
+                <td>109</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12:40 - 14:00</td>
+                <td>Додому </td>
+                <td>Ваш дім</td>
+            </tr>
+
+            <!-- П’ятниця -->
+            <tr>
+                <td rowspan="4">П’ятниця</td>
+                <td>1</td>
+                <td>08:00 - 09:20</td>
+                <td>Санітарія і гігієна / Технологія</td>
+                <td>311 / 109</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09:30 - 10:50</td>
+                <td class="art">Мистецтво</td>
+                <td>418</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:10 - 12:30</td>
+                <td>Фізична і колоїдна хімія</td>
+                <td>402</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>12:40 - 14:00</td>
+                <td class="art">Мистецтво</td>
+                <td>418</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        &copy; 2025 Розклад занять — 181-24-1. Всі права захищені.
+    </footer>
+</body>
+</html>
